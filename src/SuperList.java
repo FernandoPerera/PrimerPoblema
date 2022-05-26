@@ -35,11 +35,8 @@ public class SuperList extends ListManager{
     @Override
     public void showReversedElements() {
 
-        Iterator<Object> it = collection.iterator();
-
-        while (it.hasNext()) {
-            Object valor = it.next();
-            System.out.println(valor);
+        for (int i = (collection.size() - 1) ; i >= 0 ; i--) {
+            System.out.println(collection.get(i));
         }
 
     }
