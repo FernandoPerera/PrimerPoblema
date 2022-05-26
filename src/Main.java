@@ -9,9 +9,9 @@ public class Main {
         list.addElement(10);
         list.addElement(5);
 
-        list.showElements();
+        list.removeElement(3);
 
-        list.removeElement(2);
+        list.showElements();
 
         System.out.println("----------------");
 
